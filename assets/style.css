@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* navbar */
+.nav-link:hover {
+  background-color: #f1f5f9;
+}
+
+.tagline {
+  font-size: 2.9rem;
+}
+
+.text-yellow {
+  color: #d2e823;
+}
+
+/* create */
+#create {
+  background-color: #e9c0e9;
+}
+
+.content-create {
+  color: #502274;
+}
+
+.btn-create {
+  padding: 1rem 2rem;
+  background-color: #502274;
+  border-radius: var(--bs-border-radius-pill) !important;
+}
+.btn-create:hover {
+  background-color: #5e347f;
+}
+
+/* share */
+#share {
+  background-color: #780016;
+}
+
+.text-pink {
+  color: #e9c0e9;
+}
+
+/* template */
+.content-template {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: white;
+  opacity: 0.9;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.content-template:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.hover-blue:hover {
+  color: blue;
+}
+
+/* donate */
+#donate,
+#contact {
+  background-color: #e9c0e9;
+}
+
+.rek:active {
+  position: relative;
+  top: 4px;
+}
+
+/* testimoni */
+#testimoni {
+  background-color: #f3f3f1;
+}
+
+/* footer */
+footer {
+  background-color: #502274;
+}
+
+/* media queri */
+@media screen and (min-width: 766px) {
+  .contact-us {
+    width: 50%;
+  }
+}

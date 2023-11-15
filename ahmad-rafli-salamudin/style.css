@@ -1,0 +1,40 @@
+.bg {
+  background: rgb(23, 60, 153);
+  background: linear-gradient(0deg, rgba(23, 60, 153, 1) 20%, rgba(74, 166, 192, 1) 80%);
+}
+
+.foto {
+  width: 100px;
+  border: 100%;
+  border-radius: 100%;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  background-color: white;
+  color: #173c99;
+}
+
+.share-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.share-link {
+  cursor: pointer;
+}
+.share-link:hover {
+  background-color: #f3f3f1;
+}
+
+/* media queri */
+@media screen and (min-width: 766px) {
+  .link {
+    width: 50%;
+    margin: auto;
+  }
+}
