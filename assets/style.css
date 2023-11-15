@@ -10,7 +10,7 @@
 }
 
 .tagline {
-  font-size: 2.9rem;
+  font-size: 2.2rem;
 }
 
 .text-yellow {
@@ -110,8 +110,13 @@ footer {
 }
 
 /* media queri */
+/* desktop */
 @media screen and (min-width: 766px) {
   .contact-us {
     width: 50%;
+  }
+
+  .tagline {
+    font-size: 2.9rem;
   }
 }
