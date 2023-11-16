@@ -1,0 +1,49 @@
+:root {
+  --white-color: #f8fafc;
+  --purplelight-color: #c084fc;
+  --purpledark-color: #6b21a8;
+}
+
+body {
+  background-image: url("img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.foto {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.link {
+  background-color: var(--purplelight-color);
+  color: white;
+}
+
+.link:hover {
+  background-color: white;
+  color: var(--purpledark-color);
+}
+
+.share-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.share-link {
+  cursor: pointer;
+}
+.share-link:hover {
+  background-color: #f3f3f1;
+}
+
+/* media queri */
+@media screen and (min-width: 766px) {
+  .link {
+    width: 50%;
+    margin: auto;
+  }
+}
