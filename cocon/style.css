@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("img/bg.jpeg");
+  background-image: url("img/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,13 +18,14 @@ body {
 }
 
 .link {
-  background-color: var(--purplelight-color);
+  background-color: var(--purpledark-color);
   color: white;
+  border: 1px solid var(--purplelight-color);
 }
 
 .link:hover {
-  background-color: white;
-  color: var(--purpledark-color);
+  background-color: var(--purplelight-color);
+  color: var(--purpledark-color-color);
 }
 
 .share-btn {

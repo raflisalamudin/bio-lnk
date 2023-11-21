@@ -1,0 +1,62 @@
+.bg {
+  background-color: #f3f3f5;
+}
+
+.neobrutalism {
+  outline: none;
+  border: 2px solid #000;
+  box-shadow: 3px 4px 0px 1px #000;
+}
+
+.neobrutalism:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #000;
+}
+
+/* neo color */
+.neo1 {
+  background-color: #687eff;
+}
+.neo2 {
+  background-color: #80b3ff;
+}
+.neo3 {
+  background-color: #98e4ff;
+}
+.neo4 {
+  background-color: #b6fffa;
+}
+
+.foto {
+  width: 100px;
+  box-shadow: 3px 4px 0px 1px #000;
+}
+
+.link {
+  color: #222;
+}
+
+.link:hover {
+  color: #173c99;
+}
+
+.share-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.share-link {
+  cursor: pointer;
+}
+.share-link:hover {
+  background-color: #f3f3f1;
+}
+
+/* media queri */
+@media screen and (min-width: 766px) {
+  .link {
+    width: 50%;
+    margin: auto;
+  }
+}

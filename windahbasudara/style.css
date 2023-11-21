@@ -1,0 +1,53 @@
+.bg {
+  background: hsla(192, 93%, 58%, 1);
+  background: linear-gradient(300deg, hsla(192, 93%, 58%, 1) 0%, hsla(224, 56%, 55%, 1) 50%, hsla(323, 91%, 60%, 1) 100%);
+  background: -moz-linear-gradient(300deg, hsla(192, 93%, 58%, 1) 0%, hsla(224, 56%, 55%, 1) 50%, hsla(323, 91%, 60%, 1) 100%);
+  background: -webkit-linear-gradient(300deg, hsla(192, 93%, 58%, 1) 0%, hsla(224, 56%, 55%, 1) 50%, hsla(323, 91%, 60%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2FD1F8", endColorstr="#4A6DCC", GradientType=1 );
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+}
+
+.foto {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  color: #173c99;
+}
+
+.share-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.share-link {
+  cursor: pointer;
+}
+.share-link:hover {
+  background-color: #f3f3f1;
+}
+
+/* media queri */
+@media screen and (min-width: 766px) {
+  .link {
+    width: 50%;
+    margin: auto;
+  }
+}
