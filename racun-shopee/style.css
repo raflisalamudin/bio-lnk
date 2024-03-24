@@ -1,0 +1,28 @@
+.foto {
+  width: 50px;
+}
+
+.font-small {
+  font-size: 0.8rem;
+}
+
+.share-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.share-link {
+  cursor: pointer;
+}
+.share-link:hover {
+  background-color: #f3f3f1;
+}
+
+/* media queri */
+@media screen and (min-width: 766px) {
+  .link {
+    width: 50%;
+    margin: auto;
+  }
+}

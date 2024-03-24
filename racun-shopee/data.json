@@ -1,0 +1,68 @@
+{
+  "produk": [
+    {
+      "id": 1,
+      "link": "https://shope.ee/9A1CaVMcHH",
+      "nama": "Headset Gaming Mobile Fantech",
+      "gambar": "img/headset-gaming-fantech-flash-hq53.png",
+      "terjual": "26RB+ Terjual",
+      "kota": "Kota Jakarta Barat"
+    },
+    {
+      "id": 2,
+      "link": "https://shope.ee/mxeSpvsp",
+      "nama": "Kaos Polos Cotton Combed",
+      "gambar": "img/kaos-polos-cotton-combed.png",
+      "terjual": "303RB+ Terjual",
+      "kota": "Kota Bandung"
+    },
+    {
+      "id": 3,
+      "link": "https://shope.ee/8A8oyz88cV",
+      "nama": "Speeds Kursi Lipat Outdoor",
+      "gambar": "img/kursi-lipat-speeds.png",
+      "terjual": "61RB+ Terjual",
+      "kota": "Kab. Tangerang"
+    },
+    {
+      "id": 4,
+      "link": "https://shope.ee/6fJrc0KlzX",
+      "nama": "Pulpen Joyko GP-265 Q Gel 0.5 mm",
+      "gambar": "img/pulpen-joyko-ink-gel-0.5mm.png",
+      "terjual": "755RB+ Terjual",
+      "kota": "Kota Jakarta Utara"
+    },
+    {
+      "id": 5,
+      "link": "https://shope.ee/50BnEGsJya",
+      "nama": "X3 Gamepad Bluetooth Smartphone",
+      "gambar": "img/gamepad-x3.png",
+      "terjual": "10RB+ Terjual",
+      "kota": "Kota Jakarta Barat"
+    },
+    {
+      "id": 6,
+      "link": "https://shope.ee/2LB24YzFnn",
+      "nama": "Kemeja Hitam Polos Lengan Panjang",
+      "gambar": "img/kemeja-hitam-polos-lengan-panjang.png",
+      "terjual": "169RB+ Terjual",
+      "kota": "Kab. Tangerang"
+    },
+    {
+      "id": 7,
+      "link": "https://shope.ee/A9ttPkOhXN",
+      "nama": "Parfum Morris Black Edition",
+      "gambar": "img/parfum-morris-black-edition.png",
+      "terjual": "72RB+ Terjual",
+      "kota": "Kota Jakarta Barat"
+    },
+    {
+      "id": 8,
+      "link": "https://shope.ee/8pOvqi2tLZ",
+      "nama": "Tas Selempang Fourtyfour Promess",
+      "gambar": "img/tas-selempang.png",
+      "terjual": "10RB+ Terjual",
+      "kota": "Kota Jakarta Barat"
+    }
+  ]
+}

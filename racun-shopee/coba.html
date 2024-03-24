@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data JSON dengan Live Search</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <input type="text" id="searchInput" class="form-control" placeholder="Cari berdasarkan nama..." />
+        </div>
+      </div>
+      <div class="row" id="data-container">
+        <!-- Data akan ditampilkan di sini -->
+      </div>
+    </div>
+
+    <script type="application/json" id="json-data">
+      [
+        {
+          "nama": "John Doe",
+          "umur": 30,
+          "alamat": {
+            "jalan": "Jl. Pahlawan No. 123",
+            "kota": "Jakarta",
+            "kode_pos": "12345"
+          },
+          "hobi": ["membaca", "bersepeda", "menulis"],
+          "status": "aktif"
+        },
+        {
+          "nama": "Jane Smith",
+          "umur": 25,
+          "alamat": {
+            "jalan": "Jl. Merdeka No. 456",
+            "kota": "Bandung",
+            "kode_pos": "67890"
+          },
+          "hobi": ["berenang", "mendaki"],
+          "status": "aktif"
+        },
+        {
+          "nama": "Alice Johnson",
+          "umur": 35,
+          "alamat": {
+            "jalan": "Jl. Cendana No. 789",
+            "kota": "Surabaya",
+            "kode_pos": "54321"
+          },
+          "hobi": ["berkebun", "memasak"],
+          "status": "tidak aktif"
+        },
+        {
+          "nama": "Bob Brown",
+          "umur": 28,
+          "alamat": {
+            "jalan": "Jl. Raya No. 101",
+            "kota": "Yogyakarta",
+            "kode_pos": "13579"
+          },
+          "hobi": ["mendengarkan musik", "bermain game"],
+          "status": "aktif"
+        }
+      ]
+    </script>
+
+    <script>
+      // Mendapatkan data JSON dari tag <script> dengan id "json-data"
+      var jsonData = JSON.parse(document.getElementById("json-data").textContent);
+
+      // Function to display JSON data
+      function displayData(jsonData) {
+        var container = document.getElementById("data-container");
+        container.innerHTML = ""; // Kosongkan container sebelum menampilkan hasil pencarian baru
+
+        jsonData.forEach(function (data, index) {
+          var html = `
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-header">
+              <h2>Data Pengguna ${index + 1}</h2>
+            </div>
+            <div class="card-body">
+              <p><strong>Nama:</strong> ${data.nama}</p>
+              <p><strong>Umur:</strong> ${data.umur}</p>
+              <p><strong>Alamat:</strong> ${data.alamat.jalan}, ${data.alamat.kota}, ${data.alamat.kode_pos}</p>
+              <p><strong>Hobi:</strong> ${data.hobi.join(", ")}</p>
+              <p><strong>Status:</strong> ${data.status}</p>
+            </div>
+          </div>
+        </div>
+      `;
+          container.innerHTML += html;
+        });
+      }
+
+      // Panggil function untuk menampilkan data awal
+      displayData(jsonData);
+
+      // Event listener untuk live search
+      document.getElementById("searchInput").addEventListener("input", function () {
+        var searchText = this.value.toLowerCase();
+        var filteredData = jsonData.filter(function (data) {
+          return data.nama.toLowerCase().includes(searchText);
+        });
+        displayData(filteredData);
+      });
+    </script>
+  </body>
+</html>
