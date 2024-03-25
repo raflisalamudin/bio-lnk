@@ -1,5 +1,5 @@
 // Ambil data produk dari file JSON
-fetch("data.json")
+fetch("/racun-shopee/data.json")
   .then((response) => response.json())
   .then((data) => {
     let produkHTML = "";
