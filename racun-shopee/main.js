@@ -16,7 +16,7 @@ fetch("/racun-shopee/data.json")
           <div class="p-0">
             <div class="card">
               <a href="${produk.link}" class="text-decoration-none text-dark">
-                <img src="${produk.gambar}" class="card-img-top" alt="${produk.nama}">
+                <img src="/racun-shopee/${produk.gambar}" class="card-img-top" alt="${produk.nama}">
                 <div class="p-2">
                   <p class="card-title fw-medium">${produk.nama}</p>
                   <p class="card-text text-end font-small">${produk.terjual} <br> ${produk.kota}</p>
