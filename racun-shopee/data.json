@@ -63,6 +63,70 @@
       "gambar": "img/tas-selempang.png",
       "terjual": "10RB+ Terjual",
       "kota": "Kota Jakarta Barat"
+    },
+    {
+      "id": 9,
+      "link": "https://shope.ee/5AVTHOBmEU",
+      "nama": "Lozy Hijab Murcee",
+      "gambar": "img/lozy-hijab.jpg",
+      "terjual": "266RB+ Terjual",
+      "kota": "Kota Tasikmalaya"
+    },
+    {
+      "id": 10,
+      "link": "https://shope.ee/4VFmUqWgUV",
+      "nama": "Kahf Oil and Acne Care Face Wash",
+      "gambar": "img/kahf-hijau.png",
+      "terjual": "135RB+ Terjual",
+      "kota": "Kota Jakarta Selatan"
+    },
+    {
+      "id": 11,
+      "link": "https://shope.ee/9pHIqbQvfk",
+      "nama": "Kahf Skin Energizing and Brightening Face Wash",
+      "gambar": "img/kahf-biru.png",
+      "terjual": "97RB+ Terjual",
+      "kota": "Kota Jakarta Selatan"
+    },
+    {
+      "id": 12,
+      "link": "https://shope.ee/5V8JgqGAyP",
+      "nama": "Kahf Triple Action Oil and Comedo Defense Face Wash",
+      "gambar": "img/kahf-hitam.png",
+      "terjual": "49RB+ Terjual",
+      "kota": "Kota Jakarta Selatan"
+    },
+    {
+      "id": 13,
+      "link": "https://shope.ee/604aHplr2O",
+      "nama": "Kahf Gentle Exfoliating Face Scrub",
+      "gambar": "img/kahf-coklat.png",
+      "terjual": "56RB+ Terjual",
+      "kota": "Kota Jakarta Selatan"
+    },
+    {
+      "id": 14,
+      "link": "https://shope.ee/1fvbFQBI6a",
+      "nama": "Mukena Traveling Parasut",
+      "gambar": "img/mukena-traveling-parasut.png",
+      "terjual": "45RB+ Terjual",
+      "kota": "Kota Tasikmalaya"
+    },
+    {
+      "id": 15,
+      "link": "https://shope.ee/7pWEc1iIkc",
+      "nama": "Mukena Traveling Mini Pouch",
+      "gambar": "img/mukena-traveling-mini-pouch.png",
+      "terjual": "46RB+ Terjual",
+      "kota": "Kab. Tasikmalaya"
+    },
+    {
+      "id": 16,
+      "link": "https://shope.ee/6pdhPIHOKL",
+      "nama": "Lampu LED Tmblr",
+      "gambar": "img/lampu-hias-led-tumblr.png",
+      "terjual": "4RB+ Terjual",
+      "kota": "Kota Jakarta Timur"
     }
   ]
 }
